@@ -21,9 +21,21 @@ $ jupyter lab
 ```
 and open the file `DNA_to_DNA.ipynb`.
 
+---
+
 ### Data
 
-The data is stored in the `hta2.txt` file. It is represented as a matrix with the expression levels of 32 genes (columns) over 20033 experiments (rows). 
+The data is stored in the `hta2.txt` file. It is represented as a matrix with the expression levels of 32 genes (columns) over 20033 experiments (rows):
+```
+                 AN.387	AN.414	AN.451	AN.562	AN.596	...     ST.405	ST.449	ST.450	ST.667	ST.679
+ENSG00000000003	 6.023	 6.031	 5.844	 7.663	 6.139	...     6.523	 7.011	 6.993	 6.536	 7.333
+ENSG00000000005	 3.540	 3.397	 3.780	 3.758	 3.590	...     3.842	 3.737	 3.652	 3.793	 3.731
+ENSG00000000419	 8.237	 8.108	 8.198	 8.175	 8.556	...     8.736	 8.359	 7.985	 8.634	 8.943
+ENSG00000000457	 5.953	 6.146	 5.870	 5.899	 6.032	...     6.248	 5.655	 5.524	 5.821	 5.834
+...
+```
+
+---
 
 ### Model
 
