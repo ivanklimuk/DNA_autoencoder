@@ -10,10 +10,11 @@ To run this demo you need `pyhton >= 3.0` (Anaconda distribution) together with 
 
 2) Install Jupyter Lab and all dependencies.
 
-On **MacOS / Ubuntu** you can run:
+- On **MacOS / Ubuntu** you can run:
 ```
 $ make install
 ```
+- On other OS you need to install Jupyter Lab and all dependencies from the `requirements.txt` file.
 
 3) To launch the application, run:
 ```
